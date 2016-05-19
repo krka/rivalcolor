@@ -18,6 +18,9 @@ You can run with `python rival.py`
 
 # Running automatically with upstart
 
+If you're running ubuntu or similar, you may want this to run automatically in the background.
+You can add something like this to `/etc/init/rivalcolor.conf`:
+
 ```
 description "Rivalcolor daemon"
 
